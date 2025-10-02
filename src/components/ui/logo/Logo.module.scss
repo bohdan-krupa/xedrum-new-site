@@ -1,0 +1,25 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 35px;
+  background: #0D0D0D;
+  padding: 7px 14px 8px 14px;
+  border: 1px solid white;
+  cursor: pointer;
+  
+  .logoLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    
+    .logoText {
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: white;
+      line-height: 100%;
+      text-align: center;
+    }
+  }
+}

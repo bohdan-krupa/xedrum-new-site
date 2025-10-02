@@ -1,0 +1,32 @@
+.arrowButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: #53B36F;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #53B36F, 0 0 0 4px rgba(83, 179, 111, 0.2);
+  }
+  
+  &:hover {
+    background: #4a9f63;
+  }
+  
+  .buttonText {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .arrowIcon {
+    width: 10px;
+    height: 10px;
+  }
+}
