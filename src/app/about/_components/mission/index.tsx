@@ -9,7 +9,7 @@ export default function Mission() {
             <div className="flex flex-col gap-2 items-center justify-center max-w-2xl py-8 z-10">
 
                 <Label>Our Mission & Vision</Label>
-                <p className="text-center p-6 rounded-4xl bg-white/12 backdrop-blur-sm">
+                <p className="text-center p-6 rounded-4xl bg-white/12 backdrop-blur-sm text-p">
                     At Xedrum, we craft digital experiences that empower businesses to grow, scale,
                     and lead in their industries. Guided by innovation, transparency, and a passion
                     for excellence, we deliver technology solutions that make an impact.

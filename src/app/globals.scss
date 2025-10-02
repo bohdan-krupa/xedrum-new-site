@@ -26,6 +26,19 @@ body {
   }
 }
 
+.h1-text {
+  @apply font-bold text-[28px] lg:text-[68px];
+}
+
+.h2-text {
+  @apply font-bold text-[24px] lg:text-[54px];
+}
+
+.text-p {
+  @apply text-sm lg:text-base
+}
+
+
 .font-manrope {
   font-family: 'Manrope', sans-serif;
 }

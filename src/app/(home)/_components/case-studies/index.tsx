@@ -14,16 +14,16 @@ interface CaseItem {
 }
 const webCases: CaseItem[] = [
     { title: "CARGOTRACK", description: "Cloud platform optimizing delivery routes and monitoring fleet.", tags: ["Web Development", "Team Extension"] },
-    { title: "FINTRACK", description: "Smart fintech platform for budget management and analytics.", tags: ["Web Development", "Analytics"] },
-    { title: "SHOPMATE", description: "E-commerce dashboard for managing products and orders.", tags: ["Web Development", "E-commerce"] },
-    { title: "BLOGIFY", description: "Content management platform for bloggers and marketers.", tags: ["Web Development", "CMS"] },
+    { title: "CARGOTRACK", description: "Cloud platform optimizing delivery routes and monitoring fleet.", tags: ["Web Development", "Team Extension"] },
+    { title: "CARGOTRACK", description: "Cloud platform optimizing delivery routes and monitoring fleet.", tags: ["Web Development", "Team Extension"] },
+    { title: "CARGOTRACK", description: "Cloud platform optimizing delivery routes and monitoring fleet.", tags: ["Web Development", "Team Extension"] },
 ];
 
 const mobileCases: CaseItem[] = [
     { title: "HEALTHYAPP", description: "Mobile app for real-time health tracking.", tags: ["Mobile App", "AI Integration"] },
-    { title: "EDUAI", description: "AI-driven e-learning system.", tags: ["Education", "AI"] },
-    { title: "FITTRACK", description: "Fitness tracking app with social integration.", tags: ["Mobile App", "Health"] },
-    { title: "TRAVELPAL", description: "Travel planning and itinerary app.", tags: ["Mobile App", "Travel"] },
+    { title: "HEALTHYAPP", description: "Mobile app for real-time health tracking.", tags: ["Mobile App", "AI Integration"] },
+    { title: "HEALTHYAPP", description: "Mobile app for real-time health tracking.", tags: ["Mobile App", "AI Integration"] },
+    { title: "HEALTHYAPP", description: "Mobile app for real-time health tracking.", tags: ["Mobile App", "AI Integration"] },
 ];
 
 const allCases = [...webCases, ...mobileCases];
@@ -40,7 +40,7 @@ export default function CaseStudies() {
         <div className="mt-16">
             <div className="flex flex-col gap-y-3">
                 <Label>Projects that speak for themselves</Label>
-                <h1 className="text-2xl lg:text-[54px] font-bold">Case Studies</h1>
+                <h2 className="h2-text">Case Studies</h2>
 
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                     <Switcher active={activeTab} setActive={setActiveTab} />

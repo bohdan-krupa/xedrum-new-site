@@ -3,11 +3,11 @@ import { Label } from "@/components/ui/Label";
 import TeamCard from "./TeamCard";
 
 const teammate = [
-    { id: 1, jobTitle: "CEO", name: "Bohdan", cite: "sdasdadasdasdas" },
-    { id: 2, jobTitle: "CTO", name: "Anna", cite: "Anna leads tech team." },
-    { id: 3, jobTitle: "Designer", name: "Alice", cite: "Alice creates designs." },
-    { id: 4, jobTitle: "Developer", name: "Bob", cite: "Bob writes code." },
-    { id: 5, jobTitle: "PM", name: "Carol", cite: "Carol manages projects." },
+    { id: 1, jobTitle: "Co Founder", name: "Bohdan", cite: "“Decor is the art of giving every space unique haracter and soul”" },
+    { id: 2, jobTitle: "Co Founder", name: "Bohdan", cite: "“Decor is the art of giving every space unique haracter and soul”" },
+    { id: 3, jobTitle: "Co Founder", name: "Bohdan", cite: "“Decor is the art of giving every space unique haracter and soul”" },
+    { id: 4, jobTitle: "Co Founder", name: "Bohdan", cite: "“Decor is the art of giving every space unique haracter and soul”" },
+
 ];
 
 export default function Team() {
@@ -15,12 +15,12 @@ export default function Team() {
         <div className="flex flex-col lg:flex-row gap-18">
             <div className="flex flex-col gap-4 lg:gap-8 max-w-[400px]">
                 <Label>Expertise</Label>
-                <h2 className="text-[24px] lg:text-[54px] font-bold">Meet The Team</h2>
-                <h5>
+                <h2 className="h2-text">Meet The Team</h2>
+                <p className="text-p">
                     Our talented team consists of skilled developers,
                     creative designers, and dedicated project managers
                     who bring diverse expertise and fresh ideas to every project.
-                </h5>
+                </p>
                 <div className="mt-6">
                     <RoundedArrowButton title="Get in touch" />
                 </div>

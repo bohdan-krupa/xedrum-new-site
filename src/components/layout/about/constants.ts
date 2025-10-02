@@ -18,27 +18,27 @@ export const progressData = [
 export const accordionData = [
     {
         image: "/images/icon/accordionIcon.svg",
-        title: "Product Information",
+        title: "Partnership Over Projects",
         text: "Our flagship product combines cutting-edge technology with sleek design.",
     },
     {
         image: "/images/icon/accordionIcon.svg",
-        title: "Shipping Details",
+        title: "Clarity at Every Step",
         text: "We offer worldwide shipping through trusted courier partners.",
     },
     {
         image: "/images/icon/accordionIcon.svg",
-        title: "Return Policy",
+        title: "Excellence Through Simplicity",
         text: "We stand behind our products with a 30-day return policy.",
     },
     {
         image: "/images/icon/accordionIcon.svg",
-        title: "Shipping Details",
+        title: "Partnership Over Projects",
         text: "We offer worldwide shipping through trusted courier partners.",
     },
     {
         image: "/images/icon/accordionIcon.svg",
-        title: "Return Policy",
+        title: "Clarity at Every Step",
         text: "We stand behind our products with a 30-day return policy.",
     },
 ];

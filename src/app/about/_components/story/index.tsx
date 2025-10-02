@@ -9,8 +9,8 @@ export default function Story() {
         <div className="flex flex-col items-center justify-center">
             <div className="flex flex-col gap-8 items-center justify-center max-w-2xl">
                 <Label>Our Values</Label>
-                <h2 className="font-bold text-[28px] lg:text-[54px]">Our Story</h2>
-                <p className="text-center">
+                <h2 className="h2-text">Our Story</h2>
+                <p className="text-center text-p">
                     Founded by a team of technology enthusiasts, Xedrum has been delivering
                     high-quality web and mobile development services for over X years.
                     From startups to global companies, we’ve helped clients turn ideas into robust products

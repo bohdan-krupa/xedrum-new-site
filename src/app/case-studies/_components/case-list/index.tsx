@@ -13,7 +13,7 @@ const caseData = [
             "Enhance data visibility for end-users",
             "Introduce AI-driven decision support tools",
         ],
-        imageSrc: "/images/dashboard.png",
+        imageSrc: "/images/",
         link: "#",
     },
     {
@@ -26,7 +26,7 @@ const caseData = [
             "Enhance data visibility for end-users",
             "Introduce AI-driven decision support tools",
         ],
-        imageSrc: "/images/dashboard.png",
+        imageSrc: "/images/",
         link: "#",
     },
     {
@@ -39,7 +39,7 @@ const caseData = [
             "Enhance data visibility for end-users",
             "Introduce AI-driven decision support tools",
         ],
-        imageSrc: "/images/dashboard.png",
+        imageSrc: "/images/",
         link: "#",
     },
     {
@@ -52,7 +52,7 @@ const caseData = [
             "Enhance data visibility for end-users",
             "Introduce AI-driven decision support tools",
         ],
-        imageSrc: "/images/dashboard.png",
+        imageSrc: "/images/",
         link: "#",
     },
 ];
@@ -63,10 +63,10 @@ export default function CaseList() {
             {caseData.map((c, i) => (
                 <div
                     key={i}
-                    className={`flex flex-col md:flex-row gap-6 rounded-2xl p-6 ${i % 2 === 1 ? "md:flex-row-reverse" : ""
+                    className={`flex flex-col md:flex-row gap-6 lg:gap-16 rounded-2xl p-6 ${i % 2 === 1 ? "md:flex-row-reverse" : ""
                         }`}
                 >
-                    <div className="flex-1 flex items-center justify-center">
+                    <div className="flex-1 flex items-center bg-green-primary rounded-2xl justify-center">
                         <Image
                             src={c.imageSrc}
                             alt={c.title}
@@ -82,7 +82,8 @@ export default function CaseList() {
                             {c.tags.map((tag, i) => (
                                 <span
                                     key={i}
-                                    className="text-xs p-2 bg-green-light text-green-primary border-1 border-[#53b3705c] rounded-xl font-bold font-inter"
+                                    className="text-xs p-2 bg-green-light text-green-primary border-1 border-[#53b3705c]
+                                     rounded-xl font-bold font-inter"
                                 >
                                     {tag}
                                 </span>

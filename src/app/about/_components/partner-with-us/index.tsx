@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function PartnerWithUs() {
     return (
-        <div className="py-8 lg:py-24">
+        <div className="py-8 lg:py-24 container">
             <div>
                 <Label>Expertise</Label>
-                <h2 className="font-bold text-[28px] lg:text-[54px] my-8">Why Partner With Us</h2>
+                <h1 className="h2-text my-8">Why Partner With Us</h1>
             </div>
 
 
@@ -16,7 +16,7 @@ export default function PartnerWithUs() {
                     <Image src="/images/icon/accordionIcon.svg" alt="ico" width={45} height={45} />
                     <div>
                         <h3 className="font-semibold text-lg">Flexibility</h3>
-                        <p className="text-sm">
+                        <p className="text-p">
                             We adapt to your needs and scale your team effortlessly.
                         </p>
                     </div>
@@ -26,7 +26,7 @@ export default function PartnerWithUs() {
                     <Image src="/images/icon/accordionIcon.svg" alt="ico" width={45} height={45} />
                     <div>
                         <h3 className="font-semibold text-lg">Flexibility</h3>
-                        <p className="text-sm">
+                        <p className="text-p">
                             We adapt to your needs and scale your team effortlessly.
                         </p>
                     </div>
@@ -37,7 +37,7 @@ export default function PartnerWithUs() {
                     <Image src="/images/icon/accordionIcon.svg" alt="ico" width={45} height={45} />
                     <div>
                         <h3 className="font-semibold text-lg">Flexibility</h3>
-                        <p className="text-sm">
+                        <p className="text-p">
                             We adapt to your needs and scale your team effortlessly.
                         </p>
                     </div>
@@ -47,7 +47,7 @@ export default function PartnerWithUs() {
                     <Image src="/images/icon/accordionIcon.svg" alt="ico" width={45} height={45} />
                     <div>
                         <h3 className="font-semibold text-lg">Flexibility</h3>
-                        <p className="text-sm">
+                        <p className="text-p">
                             We adapt to your needs and scale your team effortlessly.
                         </p>
                     </div>

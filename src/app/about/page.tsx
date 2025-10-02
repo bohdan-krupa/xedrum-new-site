@@ -46,7 +46,7 @@ const AboutPage = () => {
 			<section className="container">
 				<Team />
 			</section>
-			<section className="bg-off-white container">
+			<section className="bg-off-white">
 				<PartnerWithUs />
 			</section>
 		</main>

@@ -27,8 +27,8 @@ export default function OurServices() {
         <div className="flex flex-col lg:flex-row mx-auto gap-8 mt-12 lg:mt-12">
             <div className="flex flex-col gap-3">
                 <Label>What We Do Best</Label>
-                <h2 className="text-2xl lg:text-[56px] font-bold">Our Services</h2>
-                <p>
+                <h2 className="h2-text">Our Services</h2>
+                <p className="text-gray-medium text-p">
                     From full-cycle development to scalable team solutions – we help you
                     build future-proof digital products.
                 </p>
@@ -65,7 +65,7 @@ export default function OurServices() {
                 </div>
                 <div className="bg-white w-full rounded-2xl p-6 border-1 border-[#E9E9E9] bg-[url(/images/puzzle/puzzle-bg.svg)] bg-bottom-right bg-no-repeat">
                     <h3 className="font-semibold text-2xl mb-2">MOBILE DEVELOPMENT</h3>
-                    <p className="text-p-sm w-10/12">
+                    <p className="text-p w-10/12 text-gray-medium">
                         Native and cross-platform apps that engage users and perform
                         seamlessly across devices. Built for impact and scale.
                     </p>

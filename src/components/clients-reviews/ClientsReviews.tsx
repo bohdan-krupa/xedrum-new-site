@@ -11,29 +11,18 @@ const reviews = [
         stars: "⭐⭐⭐⭐⭐",
     },
     {
-        name: "Jane Doe",
-        role: "CEO at HealthPlus",
-        text: "The team delivered amazing results on time and exceeded expectations in every way.",
+        name: "Omar Rahman",
+        role: "Co-founder & COO at Finlytics",
+        text: "Working with Xedrum felt like having an in-house team — fast, reliable, and fully aligned with our product vision.",
         stars: "⭐⭐⭐⭐⭐",
     },
     {
-        name: "John Smith",
-        role: "CTO at EduSmart",
-        text: "Professional, skilled, and easy to communicate with. Highly recommended!",
+        name: "Omar Rahman",
+        role: "Co-founder & COO at Finlytics",
+        text: "Working with Xedrum felt like having an in-house team — fast, reliable, and fully aligned with our product vision.",
         stars: "⭐⭐⭐⭐⭐",
     },
-    {
-        name: "Alice Brown",
-        role: "Product Manager at Finlytics",
-        text: "Xedrum helped us scale from MVP to full-featured platform in just a few months.",
-        stars: "⭐⭐⭐⭐⭐",
-    },
-    {
-        name: "Michael Lee",
-        role: "Founder at TravelApp",
-        text: "A reliable team that understands the product and delivers quality work consistently.",
-        stars: "⭐⭐⭐⭐⭐",
-    },
+
 ]
 
 export default function СlientsReviews() {

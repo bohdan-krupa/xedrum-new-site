@@ -18,7 +18,7 @@ export default function Switcher({ active, setActive }: SwitcherProps) {
                     <li
                         key={index}
                         onClick={() => setActive(index)}
-                        className={`relative z-10 cursor-pointer inline-block px-3 py-1 text-p-sm rounded-2xl`}
+                        className={`relative z-10 cursor-pointer inline-block px-3 py-1 text-p rounded-2xl`}
                     >
                         {active === index && (
                             <motion.div
