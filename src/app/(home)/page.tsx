@@ -2,14 +2,13 @@ import Hero from "./_components/hero";
 import OurServices from "./_components/our-services";
 import CaseStudies from "./_components/case-studies";
 import WhoWeAre from "./_components/who-we-are";
-import ClientsReviews from "./_components/clients-reviews"
+import ClientsReviews from "@/components/clients-reviews/ClientsReviews"
 
 const sections = [
     { component: Hero, bg: "bg-white" },
     { component: WhoWeAre, bg: "bg-off-white" },
     { component: OurServices, bg: "bg-white" },
     { component: CaseStudies, bg: "bg-white" },
-    { component: ClientsReviews, bg: "bg-white" }
 ];
 
 export default function Home() {
@@ -22,6 +21,7 @@ export default function Home() {
                     </div>
                 </section>
             ))}
+            <ClientsReviews />
         </main>
     );
 };

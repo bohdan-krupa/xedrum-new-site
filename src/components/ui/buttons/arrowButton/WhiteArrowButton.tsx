@@ -53,8 +53,8 @@ const WhiteArrowButton: React.FC<ArrowButtonProps> = ({
         style={
           arrowColor
             ? {
-                filter: `invert(1) sepia(1) saturate(5) hue-rotate(${arrowColor})`,
-              }
+              filter: `invert(1) sepia(1) saturate(5) hue-rotate(${arrowColor})`,
+            }
             : undefined
         }
       />

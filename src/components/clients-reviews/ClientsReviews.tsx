@@ -38,7 +38,7 @@ const reviews = [
 
 export default function СlientsReviews() {
     return (
-        <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-32 mt-32 mb-12">
+        <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-32 mt-32 mb-12 container">
             <div className="flex flex-col gap-4 lg:gap-8 max-w-[400px]">
                 <Label>Projects that speak for themselves</Label>
                 <h2 className="text-[24px] lg:text-[54px] font-bold">What Our Clients Say</h2>
