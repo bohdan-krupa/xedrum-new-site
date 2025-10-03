@@ -3,7 +3,7 @@ import Image from "next/image"
 import styles from './Logo.module.scss'
 
 const Logo = () => {
-    return(
+    return (
         <div className={styles.logo}>
             <Link href="/" className={styles.logoLink}>
                 <Image
@@ -13,7 +13,7 @@ const Logo = () => {
                     height={20}
                     priority
                 />
-                <span className={styles.logoText}>Xedrum</span>
+                <span className="text-p font-outfit text-white font-semibold">Xedrum</span>
             </Link>
         </div>
     )

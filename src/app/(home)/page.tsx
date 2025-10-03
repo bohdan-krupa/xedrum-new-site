@@ -9,6 +9,7 @@ const sections = [
     { component: WhoWeAre, bg: "bg-off-white" },
     { component: OurServices, bg: "bg-white" },
     { component: CaseStudies, bg: "bg-white" },
+    { component: ClientsReviews, bg: "bg-white" },
 ];
 
 export default function Home() {
@@ -21,7 +22,6 @@ export default function Home() {
                     </div>
                 </section>
             ))}
-            <ClientsReviews />
         </main>
     );
 };

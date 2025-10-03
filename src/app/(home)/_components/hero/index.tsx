@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col gap-6 lg:gap-16 md:flex-row
             bg-[url(/images/puzzle/puzzle.svg)] 
             bg-position-[center_top_0rem]
-            lg:bg-position-[center_top_7rem] bg-no-repeat bg-size-[48px] md:bg-auto pt-18 lg:pt-52"
+            lg:bg-position-[center_top_7rem] bg-no-repeat bg-size-[48px] md:bg-auto mt-16 pt-26"
         >
             <div className="md:text-left flex-1">
                 <Label>Software Development</Label>
@@ -50,7 +50,7 @@ const Hero = () => {
                     alt="puzzle"
                     width={560}
                     height={0}
-                    className=" max-w-sm md:max-w-none"
+                    className=" max-w-sm lg:max-w-none"
                 />
             </div>
 

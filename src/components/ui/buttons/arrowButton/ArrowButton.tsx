@@ -28,7 +28,7 @@ const ArrowButton: React.FC<ArrowButtonProps> = ({
       style={buttonColor ? { background: buttonColor } : undefined}
     >
       <span
-        className={styles.buttonText}
+        className="text-p-sm font-inter"
         style={textColor ? { color: textColor } : undefined}
       >
         {title}

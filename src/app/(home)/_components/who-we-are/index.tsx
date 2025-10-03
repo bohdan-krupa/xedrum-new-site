@@ -7,10 +7,10 @@ import Image from "next/image"
 export default function WhoWeAre() {
     return (
         <div className="w-full lg:mx-auto py-9 lg:py-24">
-            <div className='flex flex-col-reverse md:flex-row gap-12 md:gap-16 lg:gap-0
+            <div className='flex flex-col-reverse md:flex-row gap-12 lg:gap-26
                 justify-center rounded-2xl lg:pt-26 lg:rounded-3xl border-2 border-[#E9E9E9]'>
                 <div className='flex flex-row min-w-max justify-center relative'>
-                    <Image src={"/images/phone2.png"} alt='phone2' width={380} height={0} />
+                    <Image src={"/images/phone2.png"} alt='phone2' width={350} height={0} className="md:w-full overflow-clip" />
                     <button className='flex absolute left-2 bottom-2/4 p-2 rounded-4xl font-bold text-[10px] bg-green-light items-center'>
                         <span className="mr-1">Watch Our Story </span>
                         <RightArrow />

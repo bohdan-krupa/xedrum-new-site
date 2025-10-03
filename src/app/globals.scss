@@ -38,6 +38,10 @@ body {
   @apply text-sm lg:text-base
 }
 
+.text-p-sm {
+  @apply text-xs lg:text-sm
+}
+
 
 .font-manrope {
   font-family: 'Manrope', sans-serif;
@@ -91,10 +95,10 @@ body {
   font-weight: 700;
 }
 
-.text-p-sm {
-  font-size: 14px;
-  line-height: 20px;
-}
+// .text-p-sm {
+//   font-size: 14px;
+//   line-height: 20px;
+// }
 
 .text-p-sm-medium {
   font-weight: 500;

@@ -3,7 +3,7 @@ import { Label } from "@/components/ui/Label";
 
 export default function Hero() {
     return (
-        <div className="text-left text-white max-w-[1440px] mx-auto px-4">
+        <div className="text-left text-white container">
             <Label>Projects that speak for themselves</Label>
             <h1 className="font-bold text-[28px] lg:text-[68px] mt-2 leading-[1.2]">
                 Our Case Studies

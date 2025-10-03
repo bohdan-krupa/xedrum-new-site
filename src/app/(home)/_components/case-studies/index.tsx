@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Label } from "@/components/ui/Label";
 import Switcher from "./Switcher";
 import RoundedArrowButton from "@/components/ui/buttons/arrowButton/RoundedArrowButton";
-import CaseCard from "./CaseCard";
+import CaseCard from "../../../../components/case-card/CaseCard";
 import Slider from "@/components/ui/slider/Slider";
 
 interface CaseItem {

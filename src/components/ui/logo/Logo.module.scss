@@ -6,13 +6,14 @@
   padding: 7px 14px 8px 14px;
   border: 1px solid white;
   cursor: pointer;
-  
+
   .logoLink {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
     text-decoration: none;
-    
+    outline: none;
+
     .logoText {
       font-family: 'Outfit', sans-serif;
       font-size: 15px;
